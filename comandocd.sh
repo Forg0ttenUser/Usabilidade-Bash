@@ -1,21 +1,21 @@
-# Para trocar entre diretórios no seu sistema de arquivos, utilize o comando interno "cd" (sem aspas)
+# Para trocar entre diretórios no seu sistema de arquivos, utilize o comando interno "cd".
 
 cd /caminho/absoluto/do/diretorio
 
-# Acima está um exemplo, que muda para um diretório a partir do caminho absoluto (utilização do diretório raiz (/))
+# O exemplo acima muda para um diretório a partir do caminho absoluto (utilização do diretório raiz "/").
 
 cd ./caminho/do/diretorio
 
-# Acima está um exemplo, que muda para um diretório a partir do caminho relativo ao diretório de trabalho atual (./)
+# O exemplo acima muda para um diretório a partir do caminho relativo ao diretório de trabalho corrente "./".
 
 cd ~
 
-# Em sistemas de base Unix, o "~" representa/substitui o diretório usuário do diretório home. O exemplo acima muda para o diretório usuário do diretório home
+# No Bash, o "~" representa/substitui o diretório de usuário do diretório home.
 
 cd ..
 
-# O exemplo acima muda para o diretório pai do diretório atual (./)
+# O exemplo acima muda para o diretório pai do diretório corrente "./".
 
 cd
 
-# O exemplo acima tem o mesmo efeito do comando cd ~
+# O exemplo acima tem o mesmo efeito do comando "cd ~".
